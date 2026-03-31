@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Sagnos internal
+.sagnos/
+*.pid
+.ready
+
+# VS Code
+.vscode/settings.json
+
+# Flutter generated — keep the sagnos/ subfolder out of git on example only
+example/flutter_app/lib/sagnos/
+example/flutter_app/.dart_tool/
+example/flutter_app/build/

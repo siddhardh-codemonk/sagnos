@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.pylance",
+    "ms-python.black-formatter",
+    "Dart-Code.flutter",
+    "Dart-Code.dart-code"
+  ]
+}

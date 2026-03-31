@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Sagnos Backend",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/example/backend.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Flutter App",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/example/flutter_app/lib/main.dart"
+    },
+    {
+      "name": "Full Stack",
+      "type": "compound",
+      "configurations": ["Sagnos Backend", "Flutter App"]
+    }
+  ]
+}
