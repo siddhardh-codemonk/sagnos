@@ -397,7 +397,7 @@ When your backend is running, visit:
 Pull requests welcome. For major changes please open an issue first.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sagnos
+git clone https://github.com/siddhardh-codemonk/sagnos
 cd sagnos
 python -m venv .venv
 .venv\Scripts\activate
